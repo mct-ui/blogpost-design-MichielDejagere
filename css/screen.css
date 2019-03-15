@@ -98,6 +98,10 @@ h1 {
   font-family: "Playfair Display", serif;
 }
 
+*+h2 {
+  margin-top: 48px
+}
+
 h2 {
   font-size: 23px;
   line-height: 32px;
@@ -207,6 +211,36 @@ a:focus {
     Inlined to avoid the additional HTTP request:
     http://www.phpied.com/delay-loading-your-print-css/
 */
+/*
+  Components: auther
+*/
+.c-author {
+  display: flex;
+  align-itmes: center;
+}
+
+.c-author_image {
+  w56 h56 brds100%
+}
+
+.c-author_name, .c-author_meta {
+  margin-bottom: 0;
+}
+
+.c-author_meta {
+  font-size: 14px;
+  line-height: 16px;
+  font-family: "Inter UI", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin-top: 4px;
+}
+
+.c-author_image {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+  margin-right: 16px;
+}
+
 @media print {
 
   *,
